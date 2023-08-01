@@ -90,25 +90,44 @@ min_value = 100
 max_value = 200
 
 #Deleting min value
-stop = 0
-for index, value in enumerate(data):
-  if value >= min_value:
-    stop = index
-    break
+# stop = 0
+# for index, value in enumerate(data):
+#   if value >= min_value:
+#     stop = index
+#     break
 
-print(data)
-del data[:stop]
-print(data)
+# print(data)
+# del data[:stop]
+# print(data)
 
 
 #Deleting max value
-start = 0
-for index in range(len(data) -1, -1, -1):
-  if data[index] > max_value:
-    start = index
-    break
+# start = 0
+# for index in range(len(data) -1, -1, -1):
+#   if data[index] > max_value:
+#     start = index
+#     break
 
-print(data)
-del data[start:]
+# print(data)
+# del data[start:]
+# print(data)
+
+#Deleting min and max values
+
+# for index in range(len(data) -1, -1, -1):
+#   if data[index] < min_value or data[index] > max_value:
+#     print(index, data)
+#     del data[index]
+
+# print(data)
+
+#With reversed function
+
+top_value = len(data) - 1
+
+for index, value in enumerate(reversed(data)):
+  if value < min_value or value > max_value:
+    del data[top_value - index]
+    
 print(data)
 
