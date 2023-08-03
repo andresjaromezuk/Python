@@ -131,3 +131,34 @@ for index, value in enumerate(reversed(data)):
     
 print(data)
 
+#Nested lists
+
+pares = [2,4,6,8]
+impares = [1,3,5,7]
+
+todos = [pares, impares]
+
+for i in todos:
+  print(i)
+  for a in i:
+    print(a)
+
+
+menu = [
+    ["egg", "bacon"],
+    ["egg", "sausage", "bacon"],
+    ["egg", "spam"],
+    ["egg", "bacon", "spam"],
+    ["egg", "bacon", "sausage", "spam"],
+    ["spam", "bacon", "sausage", "spam"],
+    ["spam", "sausage", "spam", "bacon", "spam", "tomato", "spam"],
+    ["spam", "egg", "spam", "spam", "bacon", "spam"],
+]
+
+
+for meal in menu:
+  top_value = len(meal) - 1
+  for i, food in enumerate(reversed(meal)):
+    if food == "spam":
+      del meal[top_value - i]
+  print(meal)
