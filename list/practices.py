@@ -162,3 +162,9 @@ for meal in menu:
     if food == "spam":
       del meal[top_value - i]
   print(meal)
+
+  url = "www.template.pow.la"
+
+  url2= "www.staging-template.pow.la"
+
+  url3= "www.cheeky.com.ar"
