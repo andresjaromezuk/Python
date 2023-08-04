@@ -165,6 +165,6 @@ for meal in menu:
 
   url = "www.template.pow.la"
 
-  url2= "www.staging-template.pow.la"
+  url2= "www.template.pow.la"
 
-  url3= "www.cheeky.com.ar"
+  url3= ""
