@@ -163,9 +163,26 @@ for meal in menu:
       del meal[top_value - i]
   print(meal)
 
-  url = "www.template.pow.la"
+numbers = ['123', '56', '654', '1', '99']
 
-  url2= "www.template.pow.la"
+# for index, num in enumerate(numbers):
+#   numbers[index] = int(num)
+# print(numbers)
 
-  url3= "www.cheeky.com.ar"
+entry = "4,3,1"
+
+numbers = entry.split(",")
+
+for i, num in enumerate(numbers):
+  numbers[i] = int(num)
+for i, num in enumerate(numbers):
+  if i == 0:
+    a = num
+  elif i == 1:
+    b = num
+  else: 
+    c = num
+
+print(a+b-c)
+
 
