@@ -1,12 +1,12 @@
-albums = [("Welcome to my Nightmare", "Alice Cooper", 1975),
-          ("Bad Company", "Bad Company", 1974),
-          ("Nightflight", "Budgie", 1981),
-          ("More Mayhem", "Emilda May", 2011),
-          ("Ride the Lightning", "Metallica", 1984),
-          ]
+# albums = [("Welcome to my Nightmare", "Alice Cooper", 1975),
+#           ("Bad Company", "Bad Company", 1974),
+#           ("Nightflight", "Budgie", 1981),
+#           ("More Mayhem", "Emilda May", 2011),
+#           ("Ride the Lightning", "Metallica", 1984),
+#           ]
 
-for (name, artist, year) in albums:
-     print(f"Album: {name}, Artist: {artist}, Year: {year}")
+# for (name, artist, year) in albums:
+#      print(f"Album: {name}, Artist: {artist}, Year: {year}")
 
 
 
@@ -51,7 +51,7 @@ albums = [
 ]
  
 # Add your code below this comment.
-print(albums[1][3][5][1])
-print(albums[2][2])
-print(albums[3][3][3][0])
-print(albums[2][3][1])
+# print(albums[1][3][5][1])
+# print(albums[2][2])
+# print(albums[3][3][3][0])
+# print(albums[2][3][1])

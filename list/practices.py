@@ -186,3 +186,10 @@ for i, num in enumerate(numbers):
 print(a+b-c)
 
 
+lista = list()
+
+print(lista)
+
+lista.append("hola")
+
+print(lista)
